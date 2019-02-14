@@ -20,7 +20,10 @@ using namespace std;
  * @param y
  */
 Triangulo::Triangulo(float b, float h, float x, float y) {
-
+    _base = b;
+    _altura = h;
+    setX( x );
+    setY( y );
 }
 
 /**

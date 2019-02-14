@@ -38,7 +38,7 @@ float getY(){return _yc;}
 void setAngulo(float a){_angulo = a;};
 float getAngulo(){return _angulo;}
 private: 
-	float _l;
+    float _lado;
 	float _xc;
 	float _yc;
     float _angulo;

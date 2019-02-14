@@ -5,6 +5,7 @@
 
 #include "Pentagono.h"
 #include <iostream>
+#include <math.h>
 
 
 using namespace std;
@@ -28,14 +29,14 @@ Pentagono::Pentagono(float l, float x, float y ) {
  * @return float
  */
 float Pentagono::area() {
-    return NaN;
+    return 0.;
 }
 
 /**
  * @return float
  */
 float Pentagono::perimetro() {
-    return NaN;
+    return 0.;
 }
 
 /**
